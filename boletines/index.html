@@ -2,35 +2,113 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
-	<style type="text/css">
-		p
-		{
-			color: red;
-		}
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> las mejores pizzas de mi ciudad</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
 
-		.red
-		{
-			height: 200px;
-			width: 100px;
-			background-color: red;
-		}
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
 
-		#boton-pago
-		{
-			background-color: yellow;
 
-		}
 
-	</style>
 </head>
 <body>
-	<div class="red texto-blanco">
-		
+	<div class="container">
+		<div class="content animated fadeInDown">
+			<header class="encabezado">
+				<h1 class="title">Las mejores pizzas de mi ciudad</h1>
+			</header>
+			<table class="table">
+				<thead>
+					<th>
+						#
+					</th>
+					<th>Nombre</th>
+					<th>Ubicación</th>
+					<th>Calificación</th>
+					<th>Acciones</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Napolis</td>
+						<td>Av. Lakin</td>
+						<td>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</td>
+						<td>
+							<a href="restaurantes/napolis.html">Más información</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>Del jaguar</td>
+						<td>Av. Las Torres</td>
+						<td>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</td>
+						<td>
+							<a href="restaurantes/deljaguar.html">Más información</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Costco</td>
+						<td>Av. Kabah</td>
+						<td>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>Soriana</td>
+						<td>Av. Nichupté</td>
+						<td>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+
+						</td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td>5</td>
+						<td>Papa Jhons</td>
+						<td>Av. La Luna</td>
+						<td>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+						</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
-	<button id="boton-pago" type="button" name="button">Pagar</button>
-	<p>
-		Hola mundo
-	</p>
+	<script src="./js/main.js"></script>
 </body>
 </html>
